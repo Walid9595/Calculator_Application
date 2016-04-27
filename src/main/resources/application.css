@@ -1,0 +1,36 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button{
+    -fx-text-fill:black ;
+     -fx-font-weight:bold;
+    -fx-background-radius:10;
+    -fx-background-color: linear-gradient(#FFFFFF 0%, white 50%); 
+    -fx-cursor:hand;      
+}
+.button {
+	-fx-background-color:rgb(192,192,192);	
+    -fx-font-size:200%;
+}
+#equ:pressed:hover{
+	-fx-background-color:rgb(128,128,192);	
+}
+.button:hover {
+	 -fx-text-fill:azure ;
+	-fx-background-color:rgb(128,128,128);
+	-fx-border-color:transparent ;
+	 -fx-background-size:500% ;
+	 -fx-font-size:170%;
+}
+
+.button:hover {    
+    -fx-background-size:300% ;
+}
+
+.button:pressed,.button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill:gold;
+}
+
+.text-field{
+	 -fx-font-size:500%;
+	 -fx-background-color:ghostwhite;	
+}
